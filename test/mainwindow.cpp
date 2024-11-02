@@ -26,7 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // 初始化时钟标签
     timeLabel = new QLabel(this);
-    timeLabel->resize(width-800, height-600);
+    timeLabel->resize(400, 120);
     timeLabel->setAlignment(Qt::AlignCenter);
 
     timeLabel->setFont(QFont("Arial", 48, QFont::Bold));
@@ -35,6 +35,8 @@ MainWindow::MainWindow(QWidget *parent)
     // 初始化秒钟标签
     secondLabel = new QLabel(this);
     secondLabel->setAlignment(Qt::AlignCenter);
+
+
     secondLabel->setFont(QFont("Arial", 24));
     secondLabel->setStyleSheet("color: white; background-color: black;");
 
