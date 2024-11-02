@@ -2,3 +2,5 @@
 *.stash
 *.h
 *.cpp
+*.idx
+*.json
