@@ -26,7 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // 初始化时钟标签
     timeLabel = new QLabel(this);
-    timeLabel->resize(width-800, height-600);
+    timeLabel->resize(width-1000, height-800);
     timeLabel->setAlignment(Qt::AlignCenter);
 
 
