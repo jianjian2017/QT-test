@@ -29,10 +29,6 @@ MainWindow::MainWindow(QWidget *parent)
     timeLabel->resize(width-800, height-600);
     timeLabel->setAlignment(Qt::AlignCenter);
 
-
-
-
-
     timeLabel->setFont(QFont("Arial", 48, QFont::Bold));
     timeLabel->setStyleSheet("color: white; background-color: black;");
 
