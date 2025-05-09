@@ -5,3 +5,32 @@
 *.idx
 *.json
 *.pages
+# 忽略 Qt Creator 的 build 目录（一般是 build- 开头的文件夹）
+build*/
+Build*/
+
+# 忽略 Qt Creator 的用户配置文件
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# 忽略 Qt Creator 生成的对象文件和中间文件
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.lib
+*.exe
+
+# CMake 构建缓存（如果你使用 CMake）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt MOC/UIC/RCC 文件
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
